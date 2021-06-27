@@ -2,10 +2,13 @@
 <html>
 <title>ITSP PROJECT TEAM - JUGGERNAUT</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
@@ -304,6 +307,35 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 </script>
+ <input type="checkbox" id="click">
+      <label for="click">
+      <i class="fab fa-facebook-messenger"></i>
+      <i class="fas fa-times"></i>
+      </label>
+      <div class="wrapper">
+         <div class="head-text">
+            Let's chat? - Online
+         </div>
+         <div class="chat-box">
+            <div class="desc-text">
+               Please fill out the form below to start chatting with the next available agent.
+            </div>
+            <form action="#">
+               <div class="field">
+                  <input type="text" placeholder="Your Name" required>
+               </div>
+               <div class="field">
+                  <input type="email" placeholder="Email Address" required>
+               </div>
+               <div class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Explain your queries.." required></textarea>
+               </div>
+               <div class="field">
+                  <button type="submit">Start Chat</button>
+               </div>
+            </form>
+         </div>
+      </div>
 
 </body>
 </html>
